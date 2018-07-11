@@ -7,9 +7,11 @@
 
     <include layout="@layout/toolbar" />
 
-    <ScrollView android:layout_width="match_parent"
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -27,21 +29,25 @@
                 android:paddingBottom="10dp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp">
+
                 <Space
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/welcome_header"
-                    android:textAppearance="@style/TextAppearance.Conversations.Title"/>
+                    android:textAppearance="@style/TextAppearance.Conversations.Title" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="@string/welcome_text"
-                    android:textAppearance="@style/TextAppearance.Conversations.Body1"/>
+                    android:textAppearance="@style/TextAppearance.Conversations.Body1" />
+
                 <Button
                     android:id="@+id/create_account"
                     style="@style/Widget.Conversations.Button.Borderless"
@@ -49,7 +55,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
                     android:text="@string/create_account"
-                    android:textColor="?colorAccent"/>
+                    android:textColor="?colorAccent"
+                    android:visibility="invisible" />
+
                 <Button
                     android:id="@+id/use_own_provider"
                     style="@style/Widget.Conversations.Button.Borderless"
@@ -57,33 +65,37 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
                     android:text="@string/use_own_provider"
-                    android:textColor="?android:textColorSecondary"/>
+                    android:textAlignment="viewStart"
+                    android:textColor="?android:textColorSecondary" />
             </LinearLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_above="@+id/linearLayout"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true">
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
                     android:padding="8dp"
-                    android:src="@drawable/main_logo"/>
+                    android:src="@drawable/main_logo" />
             </RelativeLayout>
+
             <TextView
-                android:paddingLeft="8dp"
-                android:paddingRight="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:textColor="?android:attr/textColorSecondary"
-                android:textSize="@dimen/fineprint_size"
+                android:layout_centerHorizontal="true"
                 android:maxLines="1"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
                 android:text="@string/free_for_six_month"
-                android:layout_centerHorizontal="true"/>
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="@dimen/fineprint_size" />
         </RelativeLayout>
     </ScrollView>
 </LinearLayout>

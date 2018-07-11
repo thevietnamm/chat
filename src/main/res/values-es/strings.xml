@@ -510,11 +510,10 @@
   <string name="security_error_invalid_file_access">Error de seguridad: Acceso a fichero inválido</string>
   <string name="no_application_to_share_uri">No se ha encontrado ninguna aplicación para compartir la URI</string>
   <string name="share_uri_with">Compartir URI con...</string>
-  <string name="welcome_text">Usuario es una red de mensajería instantánea independiente del proveedor. Puedes usar este cliente con cualquier servidor Usuario que elijas.\nSin embargo, para tu conveniencia, hacemos de forma sencilla la creación de una cuenta en emlaze.com¹; un proveedor especialmente especializado para el uso con Emlaze Chat.</string>
   <string name="magic_create_text">Te guiaremos durante el proceso de creación de la cuenta en emlaze.com.¹\nCuando selecciones emlaze.com como proveedor podrás comunicarte con usuarios de otros servidores mediante tu identificador Usuario.</string>
   <string name="your_full_jid_will_be">Tu identificador Usuario será: %s</string>
   <string name="create_account">Crear cuenta</string>
-  <string name="use_own_provider">Usar otro proveedor de mi elección</string>
+  <string name="use_own_provider">Ingresar</string>
   <string name="pick_your_username">Elige tu nombre de usuario</string>
   <string name="pref_manually_change_presence">Gestionar disponibilidad manualmente</string>
   <string name="pref_manually_change_presence_summary">Establezca su disponibilidad cuando edite su mensaje de estado.</string>
@@ -719,4 +718,6 @@
   <string name="group_chat_name">Nombre</string>
   <string name="providing_a_name_is_optional">Añadir un nombre es opcional</string>
   <string name="create_dialog_group_chat_name">Nombre de la Conversación en grupo</string>
+  <string name="welcome_header">Bienvenido a emlaze chat</string>
+  <string name="welcome_text">Gracias por elegir EMLAZE CHAT, un servicio que le permitirá mantener comunicación en tiempo real con todas las áreas de tu compañía. La comunicación dentro tu negocio es de vital importancia para el desarrollo exitoso de todas las operaciones.\\n¡Gracias por elegirnos!</string>
 </resources>
